@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medicine Reminder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>💊 Medicine Reminder</h2>
+
+  <input type="text" id="medName" placeholder="Medicine Name">
+  <input type="time" id="medTime">
+  <button onclick="addMedicine()">Add Medicine</button>
+
+  <table id="medTable">
+    <tr>
+      <th>Medicine</th>
+      <th>Time</th>
+      <th>Action</th>
+    </tr>
+  </table>
+</div>
+
+<audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
